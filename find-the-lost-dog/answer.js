@@ -20,7 +20,10 @@ const lostDog = (...args) => {
       }
     }
   }
-  console.log(obj);
+  if (!Object.keys(obj).length) {
+    return "Dog not found!";
+  }
+  return JSON.stringify(obj);
 };
 
-document.getElementById('ans').textContent = lostDog([1, 1, 1, 1, 1, 1],  [1, 1, 1, 1, 1, 1],  [1, 1, 1, 1, 1, 1],  [1, 1, 1, 1, 1, 1]);
+document.getElementById('ans').textContent = lostDog([1, 1, 1, 1, 1, 0],  [0, 1, 1, 1, 1, 1],  [1, 0, 1, 1, 1, 1],  [1, 1, 0, 1, 1, 1]);
