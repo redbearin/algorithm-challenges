@@ -3,7 +3,7 @@ Create a function that replaces all consecutively repeated letters in a word wit
 Examples
 removeRepeats("aaabbbccc") ➞ "abc"
 
-removeRepeats() ➞ "bokeper"
+removeRepeats("bookkeeper") ➞ "bokeper"
 
 removeRepeats("nananana") ➞ "nananana"
 
