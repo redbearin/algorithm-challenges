@@ -15,4 +15,5 @@ reorderDigits([1, 2, 3, 4], "desc") ➞ [1, 2, 3, 4]
 
 Notes
 Single-digit numbers should be ordered the same regardless of direction.
+
 Numbers in the array should be kept the same order.

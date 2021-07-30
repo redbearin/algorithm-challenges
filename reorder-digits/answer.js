@@ -20,6 +20,6 @@ const reorderDigits = (nums, direction) => {
 
 
 const nums = [515, 341, 98, 44, 211];
-const direction = 'asc'
+const direction = 'asc';
 
 document.getElementById('ans').textContent = reorderDigits(nums, direction);

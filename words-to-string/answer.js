@@ -32,6 +32,6 @@ const wordsToSentence = (arr) => {
   return sentence; 
 };
 
-const arr = ["Hello", "", "Bye"];
+const arr = ["Hello", "", "Bye", "", ""];
 
 document.getElementById('ans').textContent = wordsToSentence(arr);

@@ -21,7 +21,7 @@ electricityBill(225) ➞ 427.5
 // 15$ for Meter Charge = 15,
 // Electricity Bill = 100 + 200 + 75 + 22.5 + 15 = 427.50
 
-electricityBill(c) ➞ 675
+electricityBill(300) ➞ 675
 // 100 units at $1/unit = 100, 100 units at $2/unit = 200, 100 units at $3/unit = 300
 // 10% Tax = 60,
 // 15$ for Meter Charge = 15,
